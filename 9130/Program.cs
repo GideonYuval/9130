@@ -1,6 +1,6 @@
 ﻿using System;
 //using System.Collections.Generic;
-using Unit4New;
+//using Unit4New;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -77,7 +77,6 @@ namespace _9130
         // print list in pattern : [1Element,2Element,....nElement]
         // example: param: ->1->2->1->4->3->1, print [1,2,1,4,3,1]
         // example: param: -> print null
-        // note - use Convert.ToString()
         public static void print(Node<int> lst)
         {
 
