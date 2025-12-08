@@ -11,6 +11,44 @@ namespace _9130
     {
         static void Main(string[] args)
         {
+            Node<int> n = buildListFromArrForword(new int[] { 1, 7, 3, 4, 1 });
+            Console.WriteLine(n);
+            Console.WriteLine(buildReverseList(n));
+            Console.WriteLine(len(n));
+            Console.WriteLine(count(n, 1));
+            Console.WriteLine(greaterThan(n));
+
+            print(n);
+            Node<int> n2 = null;
+            print(n2);
+
+            // before: ->5->3->9->2->3->10->4->7
+            // after : ->5->5->9->9->9->10->10->10
+            Node<int> n3 = buildListFromArrForword(new int[] { 5, 3, 9, 2, 3, 10, 4, 7 });
+            Console.WriteLine(n3);
+            Change(n3);
+            Console.WriteLine(n3);
+
+            // example: param: ->8->7->9->5->10->9->4->4->3->9, return:  ->8->7->5->4->4->3
+            Node<int> n4 = buildListFromArrForword(new int[] { 8, 7, 9, 5, 10, 9, 4, 4, 3, 9 });
+            Console.WriteLine(n4);
+            deleteGreaters(n4);
+            Console.WriteLine(n4);
+
+            Node<int> n5 = null;
+            deleteGreaters(n5);
+            Console.WriteLine(n5);
+            n5 = new Node<int>(5);
+            Console.WriteLine(n5);
+            deleteGreaters(n5);
+            Console.WriteLine(n5);
+
+
+
+
+
+
+
         }
 
         // 1
