@@ -160,6 +160,7 @@ namespace _9130
         //example: 1->1->4->4->5->5->2->2, return true
         //example:  1->2->4->4->5->5, return false
         //example: 1->1->5->5->6, return false
+        //example: 1->, return false
         public static bool IsDomino(Node<int> lst)
         {
             return true;
