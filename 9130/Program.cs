@@ -43,7 +43,25 @@ namespace _9130
             deleteGreaters(n5);
             Console.WriteLine(n5);
 
+            //9
+            Node<int> n6 = buildListFromArrForword(new int[] { 1, 4, 5, 9 }); //T
+            Console.WriteLine(IsAscending(n6));
+            n6 = buildListFromArrForword(new int[] { 1, 4, 4, 5 }); //F
+            Console.WriteLine(IsAscending(n6));
+            n6 = buildListFromArrForword(new int[] { 1, 4, 3, 5 }); //F
+            Console.WriteLine(IsAscending(n6));
 
+
+            //10
+            Console.WriteLine("domino");
+            n6 = buildListFromArrForword(new int[] { 1, 1, 4, 4, 5, 5, 2, 2 });
+            Console.WriteLine(IsDomino(n6)); //T
+            n6 = buildListFromArrForword(new int[] { 1, 2, 4, 4, 5, 5, 2, 2 });
+            Console.WriteLine(IsDomino(n6)); //F
+            n6 = buildListFromArrForword(new int[] { 1, 1, 5, 5, 6 });
+            Console.WriteLine(IsDomino(n6)); //F
+            n6 = buildListFromArrForword(new int[] { 1 });
+            Console.WriteLine(IsDomino(n6)); //F
 
 
 
