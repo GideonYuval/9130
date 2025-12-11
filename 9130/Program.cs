@@ -146,6 +146,7 @@ namespace _9130
 
         //9
         //check ascending order
+        //assume lst is at least length 2
         //exmaple: param: 1->4->5->9, return true
         //example: param: 1->4->4->5, return false
         //example: param: 1->4->3->5, return false
